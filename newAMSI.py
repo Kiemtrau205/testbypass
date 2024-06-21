@@ -118,7 +118,7 @@ def get_amsi_dll_base_address(handle, pid):
 
 # Get the PIDs of PowerShell processes
 def get_powershell_pids():
-    cmd = 'tasklist /fi "imagename eq python.exe" /fo csv'
+    cmd = 'tasklist /fi "imagename eq powershell.exe" /fo csv'
     output = subprocess.check_output(cmd, shell=True).decode()
     lines = output.strip().split('\n')[1:]
     pids = [int(line.split(',')[1].strip('"')) for line in lines]
